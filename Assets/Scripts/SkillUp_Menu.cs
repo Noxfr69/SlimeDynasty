@@ -8,6 +8,7 @@ public class SkillUp_Menu : MonoBehaviour
 {
     public GameObject skillUP_Canvas;
     public GameObject MainMenu_Canvas;
+    public GameObject ModeSelectCanvas;
     public GameObject TotalCoins;
     public GameObject slotQ;
     public GameObject slotW;
@@ -40,6 +41,7 @@ public class SkillUp_Menu : MonoBehaviour
     public void OnClickMenu()
     {
         skillUP_Canvas.SetActive(false);
+        ModeSelectCanvas.SetActive(false);
         MainMenu_Canvas.SetActive(true); 
     }
 

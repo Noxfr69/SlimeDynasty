@@ -5806,6 +5806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillUP_Canvas: {fileID: 1038586973}
   MainMenu_Canvas: {fileID: 1652245186}
+  ModeSelectCanvas: {fileID: 488175742}
   TotalCoins: {fileID: 1685976572}
   slotQ: {fileID: 244086972}
   slotW: {fileID: 602696843}
